@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Preview Image Before Uploading</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="image">
+                    <img src="">
+                </div>
+                <div class="content">
+                    <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <div class="text">No file chosen, yet!</div>
+                </div>
+                <div id="cancel-btn"><i class="fas fa-times"></i></div>
+                <div class="file-name">File name here</div>
+            </div>
+            <input type="file" name="" id="default-btn" hidden>
+            <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
